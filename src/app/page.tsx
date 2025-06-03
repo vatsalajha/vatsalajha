@@ -65,8 +65,8 @@ export default function HomePage() {
         <div className="container mx-auto px-6 lg:px-8">
           <h2 className="font-serif text-2xl text-jet-black mb-12">Education</h2>
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="bg-white border-subtle-light shadow-subtle p-6 group transition-all duration-300">
-              <div className="relative w-32 h-32 mx-auto mb-6 transform rotate-45 overflow-hidden rounded-sm border border-subtle-light">
+            <Card className="bg-white border-subtle-light shadow-subtle p-8 flex flex-col justify-between h-full group transition-all duration-300">
+              <div className="relative w-32 h-32 mx-auto mb-8 transform rotate-45 overflow-hidden rounded-sm border border-subtle-light">
                 <Image
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/67067dcc-c7a7-4ce9-ba3e-fde3a5d59f71/generated_images/minimal-line-illustration-of-modern-univ-f973cd14-20250603165355.jpg?"
                   alt="Rutgers University"
@@ -74,18 +74,15 @@ export default function HomePage() {
                   className="object-cover transform -rotate-45 scale-150"
                 />
               </div>
-              <CardContent className="p-0 text-center">
-                <h3 className="font-sans font-semibold text-lg uppercase tracking-wide text-indigo-dark mb-3">Masters of Science</h3>
-                <p className="text-gray-charcoal mb-4">Rutgers University, Computer Science - GPA: 3.8/4</p>
-                <p className="text-sm text-gray-charcoal mb-4">January 2024 - December 2025</p>
-                <Button variant="link" className="text-accents-gold p-0 h-auto font-medium">
-                  DETAILS <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
+              <CardContent className="p-0 text-center flex-1 flex flex-col justify-between">
+                <h3 className="font-sans font-semibold text-lg uppercase tracking-wide text-indigo-dark mb-4">Masters of Science</h3>
+                <p className="text-gray-charcoal mb-4 leading-relaxed">Rutgers University, Computer Science - GPA: 3.8/4</p>
+                <p className="text-sm text-gray-charcoal mb-6 leading-relaxed">January 2024 - December 2025</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-white border-subtle-light shadow-subtle p-6 group transition-all duration-300">
-              <div className="relative w-32 h-32 mx-auto mb-6 transform rotate-45 overflow-hidden rounded-sm border border-subtle-light">
+            <Card className="bg-white border-subtle-light shadow-subtle p-8 flex flex-col justify-between h-full group transition-all duration-300">
+              <div className="relative w-32 h-32 mx-auto mb-8 transform rotate-45 overflow-hidden rounded-sm border border-subtle-light">
                 <Image
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/67067dcc-c7a7-4ce9-ba3e-fde3a5d59f71/generated_images/modern-european-campus-scene-illustratio-1af132ca-20250603165405.jpg?"
                   alt="PES University"
@@ -93,18 +90,15 @@ export default function HomePage() {
                   className="object-cover transform -rotate-45 scale-150"
                 />
               </div>
-              <CardContent className="p-0 text-center">
-                <h3 className="font-sans font-semibold text-lg uppercase tracking-wide text-indigo-dark mb-3">Bachelor of Science</h3>
-                <p className="text-gray-charcoal mb-4">PES University, Computer Science - GPA: 3.7/4</p>
-                <p className="text-sm text-gray-charcoal mb-4">July 2017 - July 2021</p>
-                <Button variant="link" className="text-accents-gold p-0 h-auto font-medium">
-                  DETAILS <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
+              <CardContent className="p-0 text-center flex-1 flex flex-col justify-between">
+                <h3 className="font-sans font-semibold text-lg uppercase tracking-wide text-indigo-dark mb-4">Bachelor of Science</h3>
+                <p className="text-gray-charcoal mb-4 leading-relaxed">PES University, Computer Science - GPA: 3.7/4</p>
+                <p className="text-sm text-gray-charcoal mb-6 leading-relaxed">July 2017 - July 2021</p>
               </CardContent>
             </Card>
 
-            <Card className="bg-white border-subtle-light shadow-subtle p-6 group transition-all duration-300">
-              <div className="relative w-32 h-32 mx-auto mb-6 transform rotate-45 overflow-hidden rounded-sm border border-subtle-light">
+            <Card className="bg-white border-subtle-light shadow-subtle p-8 flex flex-col justify-between h-full group transition-all duration-300">
+              <div className="relative w-32 h-32 mx-auto mb-8 transform rotate-45 overflow-hidden rounded-sm border border-subtle-light">
                 <Image
                   src="https://slelguoygbfzlpylpxfs.supabase.co/storage/v1/object/public/project-uploads/67067dcc-c7a7-4ce9-ba3e-fde3a5d59f71/generated_images/stack-of-certification-documents-illustr-0137f85a-20250603165414.jpg?"
                   alt="Certifications"
@@ -112,29 +106,30 @@ export default function HomePage() {
                   className="object-cover transform -rotate-45 scale-150"
                 />
               </div>
-              <CardContent className="p-0 text-center">
-                <h3 className="font-sans font-semibold text-lg uppercase tracking-wide text-indigo-dark mb-3">Certifications</h3>
-                <div className="space-y-3 text-left text-sm text-gray-charcoal mb-4">
-                  <div>
-                    <p className="font-medium">Generative AI with AWS - Udacity</p>
-                    <p className="text-xs">Issued May 2025 • AI, LLM, ML, AWS</p>
+              <CardContent className="p-0 text-center flex-1 flex flex-col justify-between">
+                <h3 className="font-sans font-semibold text-lg uppercase tracking-wide text-indigo-dark mb-4">Certifications</h3>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-left text-sm text-gray-charcoal mb-6">
+                  <div className="space-y-3">
+                    <div>
+                      <p className="font-medium">Generative AI with AWS - Udacity</p>
+                      <p className="text-xs">Issued May 2025 • AI, LLM, ML, AWS</p>
+                    </div>
+                    <div>
+                      <p className="font-medium">Data Structures & Algorithms - CodePath</p>
+                      <p className="text-xs">Issued May 2025 • Python, DSA</p>
+                    </div>
                   </div>
-                  <div>
-                    <p className="font-medium">Data Structures & Algorithms - CodePath</p>
-                    <p className="text-xs">Issued May 2025 • Python, DSA</p>
-                  </div>
-                  <div>
-                    <p className="font-medium">Coding Assessment 600/600 - CodeSignal</p>
-                    <p className="text-xs">Issued Mar 2025 • C++, DSA</p>
-                  </div>
-                  <div>
-                    <p className="font-medium">Algorithmic Challenge 96% - CodeToJapan</p>
-                    <p className="text-xs">Issued Jan 2021 • C++, Competitive Programming</p>
+                  <div className="space-y-3">
+                    <div>
+                      <p className="font-medium">Coding Assessment 600/600 - CodeSignal</p>
+                      <p className="text-xs">Issued Mar 2025 • C++, DSA</p>
+                    </div>
+                    <div>
+                      <p className="font-medium">Algorithmic Challenge 96% - CodeToJapan</p>
+                      <p className="text-xs">Issued Jan 2021 • C++, Competitive Programming</p>
+                    </div>
                   </div>
                 </div>
-                <Button variant="link" className="text-accents-gold p-0 h-auto font-medium">
-                  DETAILS <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
               </CardContent>
             </Card>
           </div>
@@ -413,7 +408,7 @@ export default function HomePage() {
                   </Badge>
                 ))}
               </div>
-              <Button className="rounded-full bg-accents-gold hover:bg-gold-dark text-white px-8">
+              <Button className="rounded-full bg-accents-gold hover:bg-gold-dark text-black px-8">
                 VIEW FULL STACK <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
             </div>
@@ -473,7 +468,7 @@ export default function HomePage() {
                 <p className="text-gray-charcoal">jha.vatsala@rutgers.edu</p>
               </div>
               <a href="mailto:jha.vatsala@rutgers.edu" target="_blank" rel="noopener noreferrer">
-                <Button className="rounded-full bg-accents-gold hover:bg-gold-dark text-white px-6">
+                <Button className="rounded-full bg-accents-gold hover:bg-gold-dark text-black px-6">
                   <Mail className="w-4 h-4 mr-2" />
                   SEND EMAIL
                 </Button>
@@ -523,8 +518,8 @@ export default function HomePage() {
 
 const Header=() => (
   // Sticky Navigation
-  <nav className="fixed top-0 w-full bg-cream border-b border-subtle z-50 h-16">
-    <div className="max-w-[1140px] mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between">
+  <nav className="fixed top-0 w-full bg-cream border-b border-subtle z-50 h-20">
+    <div className="w-full max-w-[1600px] mx-auto px-8 sm:px-12 lg:px-20 h-full flex items-center justify-between">
       {/* Logo */}
       <div className="flex items-center">
         <div className="font-serif text-xl text-jet-black leading-tight">
@@ -570,7 +565,7 @@ const Header=() => (
           </Button>
         </a>
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jha.vatsala@rutgers.edu" target="_blank" rel="noopener noreferrer">
-          <Button size="sm" className="rounded-full h-11 px-6 bg-accents-gold hover:bg-gold-dark text-white transition-all duration-200 active:scale-95">
+          <Button size="sm" className="rounded-full h-11 px-6 bg-accents-gold hover:bg-gold-dark text-black transition-all duration-200 active:scale-95">
             HireMe
             <ArrowRight className="w-4 h-4 ml-2" />
           </Button>
