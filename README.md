@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Hello World! I’m Vatsala Jha 👋
+Full-Stack Developer | AI Enthusiast | Lifelong Learner 🚀
+Welcome to my digital playground! I’m on a mission to turn caffeine into code and dreams into deployments.
 
-## Getting Started
+## 🎓 Education
+MS in Computer Science @ Rutgers University (Expected 2025)
+BE in Computer Science @ PES University (2021)
+## 💼 Experience
+I’ve worn many hats, but my favorite is the debugging wizard hat!
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Software Engineer @ Cohesity
+Slayed bugs, built APIs, and made databases sing in harmony
+Automated all the things (because who likes repetitive tasks?)
+Created dashboards that made data look like modern art
+## 🛠️ Tech Toolbox
+Languages: JavaScript, TypeScript, Python, Java, C++, R, SQL
+Frontend: React, Next.js, HTML5, CSS3, Tailwind CSS, D3.js
+Backend: Node.js, Express.js, AWS, MongoDB
+DevOps: Git, Docker, Jenkins, CI/CD
+## 🚀 Projects
+Government Fund Tracking Platform
+Because transparency is the new black in governance!
+Road Trip Planner
+For when you want to take the scenic route (and avoid traffic)
+## 🌱 Currently Growing
+My skills in AI and Machine Learning
+A caffeine tolerance that would impress a barista
+## 🎨 When I’m Not Coding
+Mentoring the next generation of code wizards
+Dreaming up the next big app idea (probably involving cats or pizza)
+Hiking or planning to hike somewhere
+## 📫 Let’s Connect!
+LinkedIn
+GitHub
+Email
+Remember, in the world of coding, there are 10 types of people: those who understand binary, and those who don’t. 😉
